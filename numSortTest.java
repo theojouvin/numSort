@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.*;
 import java.io.File;
 import java.io.FileNotFoundException;
-public class NSJU {
+public class numSortTest {
 
     @Test
     public void numSortTest() throws FileNotFoundException {
