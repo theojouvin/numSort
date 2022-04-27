@@ -10,7 +10,8 @@ public class numSort {
         Scanner sc = new Scanner(input);
 
         while(sc.hasNext()) {
-                tempAL.add(sc.nextInt());
+            if(sc.hasNextInt()) tempAL.add(sc.nextInt());
+            else sc.next();
         }
 
         int[] tempA = new int[tempAL.size()];
